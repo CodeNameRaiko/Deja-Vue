@@ -1,0 +1,126 @@
+* {
+    transition: 200ms ease;
+}
+
+#body {
+    background: -webkit-linear-gradient(#74ebd5, #ACB6E5);
+    background-size: 400% 400%;
+    height:100vh; 
+    display:flex; 
+    justify-content: center;
+    align-content: center;
+    overflow-y: hidden;
+    animation: spin 10s ease alternate infinite;
+}
+
+body {
+    background: -webkit-linear-gradient(#74ebd5, #ACB6E5);
+    height:100vh; 
+    overflow-y: hidden;
+}
+
+
+
+@keyframes spin {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#logo {
+    height:200px;
+    list-style: none;
+}
+
+#logo-lead {
+font-size:50px;
+font-family: varela round; 
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+  font-family: raleway; 
+}
+
+li, a {
+    padding:20px;
+    color:rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    font-size:32px;
+}
+
+ li a:hover {
+   border-bottom: solid white; 
+   
+}
+
+.header {
+    text-align: center;
+    margin-top: 90px;
+    position: absolute;
+}
+
+#logo-logo {
+    height: 64px;
+}
+
+footer {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+    font-family: varela round; 
+}
+
+#copyright {
+    font-size: 20px;
+}
+
+/* Project */
+.ul {
+display: flex; 
+justify-content: center; 
+}
+
+.logo-name {
+font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+width: 240px;
+height: 240px;
+border: transparent;
+padding:20px; 
+border-radius: 5px; 
+background: rgb(150, 231, 241);
+margin: 0 50px;
+}
+
+.card-title {
+    font-family: quicksand;  
+}
+
+.card-content {
+    font-family: raleway;
+}
+
+.card-btn {
+    height:40px;
+    width:100px;
+    border: none; 
+    background-color: rgb(42, 161, 197); 
+    color:white;
+    border-radius: 5px;
+}
